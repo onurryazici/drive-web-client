@@ -7,14 +7,11 @@ import {ReactComponent as Share} from '../../../assets/svg/actionbar-icons/share
 import {ReactComponent as Remove} from '../../../assets/svg/actionbar-icons/remove.svg'
 import {ReactComponent as Plus} from '../../../assets/svg/actionbar-icons/plus.svg'
 import {ReactComponent as Upload} from '../../../assets/svg/actionbar-icons/upload.svg'
+import CreateFolderModal from '../../CreateFolderModal'
 function Actionbar(){
     return(
         <div id="actionbar-stage">
-            <button type="button" class="actionbar-button btn shadow-none">
-                <div className="actionbar-icon"><Plus/></div>
-                <div className="actionbar-text">Yeni klasör</div>
-            </button>
-
+            <CreateFolderModal />
             <button type="button" class="actionbar-button btn shadow-none">
                 <div className="actionbar-icon"><Upload/></div>
                 <div className="actionbar-text">Yükle</div>
