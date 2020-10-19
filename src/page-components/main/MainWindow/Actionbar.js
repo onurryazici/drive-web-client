@@ -16,8 +16,6 @@ function Actionbar(){
                 <div className="actionbar-icon"><Upload/></div>
                 <div className="actionbar-text">Yükle</div>
             </button>
-
-
         </div>
     )
 }
