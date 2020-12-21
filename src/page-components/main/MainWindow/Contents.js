@@ -27,7 +27,6 @@ export default class Contents extends Component {
               <ContextMenu id="2">
               <div className="context-menu-stage">
                   <MenuItem className="context-menu-item" data={{ item: 'item 1' }}>
-                      
                       Yeni Klasör
                   </MenuItem>
                   <MenuItem className="context-menu-item" data={{ item: 'item 2' }}>
