@@ -1,11 +1,8 @@
-import React, { Component } from 'react'
-import Placemap from '..//MainWindow/Placemap'
-import FolderDetails from '../MainWindow/FolderDetails'
-import Actionbar from '../MainWindow/Actionbar'
-import Contents from '../MainWindow/Contents'
-import '../../../assets/Style.css'
+import React from 'react'
 import RFM from 'react-file-manager-rfm'
 import 'react-file-manager-rfm/dist/index.css'
+import '../../../assets/Style.css'
+
 function MainContainer(){
     return(
         <div id="main-container">

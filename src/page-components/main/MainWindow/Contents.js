@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Item from './Item'
 import { ContextMenu, MenuItem, ContextMenuTrigger } from "react-contextmenu";
-import RectangleSelection from "react-rectangle-selection"
 import '../../../assets/Style.css'
 
 export default class Contents extends Component {

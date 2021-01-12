@@ -1,11 +1,8 @@
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import ProgressBar from 'react-bootstrap/ProgressBar'
 import UploadButton from './UploadButton'
-import {Link} from 'react-router-dom';
 import '../../../assets/Style.css'
-//import { faUpload, faFolderPlus, faFileUpload, faDatabase, faNetworkWired, faTrash } from "@fortawesome/free-solid-svg-icons";
 
 export default class NavbarLeft extends Component {
     render() {

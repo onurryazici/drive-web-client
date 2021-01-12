@@ -1,6 +1,6 @@
 {
   "name": "datagram",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.29",
@@ -14,10 +14,9 @@
     "react-bootstrap": "^1.0.1",
     "react-contextmenu": "^2.14.0",
     "react-dom": "^16.13.1",
-    "react-file-manager-rfm": "file:react-file-manager-rfm-1.0.30.tgz",
-    "react-rectangle-selection": "^1.0.4",
+    "react-file-manager-rfm": "file:react-file-manager-rfm-1.0.0.tgz",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.3"
+    "react-scripts": "^4.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,8 +38,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "rectangle-selection": "^2.6.0"
   }
 }

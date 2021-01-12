@@ -1,6 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Header from  '../page-components/main/Header/Header'
-import Content from  '../page-components/main/MainWindow/Contents'
 import NavbarLeft from  '../page-components/main/NavbarLeft/NavbarLeft'
 
 

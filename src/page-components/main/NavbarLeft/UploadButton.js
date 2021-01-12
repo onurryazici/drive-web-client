@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Dropdown,Row,Col,Container} from 'react-bootstrap'
+import {Dropdown} from 'react-bootstrap'
 export default class UploadButton extends Component{
     render(){
         return(

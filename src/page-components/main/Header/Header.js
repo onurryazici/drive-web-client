@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import {Link} from 'react-router-dom';
 import logo from '../../../assets/images/logo.png'
 import Search from './Search'
-import User from './User'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCog, faUserCircle } from "@fortawesome/free-solid-svg-icons";
 
